@@ -8,7 +8,7 @@ const updateData = {
   post: "i am updated post",
 };
 
-const putData = {
+const patchData = {
   title: "put seems to be working !",
   //   body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, exercitationem!",
 };
@@ -63,7 +63,7 @@ ajax.delete(
 
 ajax.patch(
   "https://jsonplaceholder.typicode.com/posts/5",
-  putData,
+  patchData,
   true,
   function (err, responseData) {
     if (err === null) {
