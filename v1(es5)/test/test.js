@@ -9,7 +9,7 @@ const updateData = {
 };
 
 const patchData = {
-  title: "put seems to be working !",
+  title: "patch seems to be working !",
   //   body: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, exercitationem!",
 };
 

@@ -3,6 +3,7 @@ const postData = {
   name: "new post",
   post: "i am new post",
 };
+// putData
 const updateData = {
   name: "updated post",
   post: "i am updated post",
@@ -29,7 +30,7 @@ http
   .catch((error) => console.log(error));
 
 http
-  .patch("https://jsonplaceholder.typicode.com/posts/3", patchData, true)
+  .patch("https://jsonplaceholder.typicode.com/posts/2", patchData, true)
   .then((response) => console.log(response))
   .catch((error) => console.log(error));
 
